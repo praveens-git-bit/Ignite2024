@@ -39,17 +39,18 @@ DLT_Pipeline
 
 8. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
-![task-2.2.4new.png](media/labMedia/task-2.2.4new.png)
+ <img src="media/labMedia/task-2.2.4new.png" width="800"/> 
 
 9. Click on the **Create** button.
 
-![task-2.2.5new.png](media/labMedia/task-2.2.5new.png)
+ <img src="media/labMedia/task-2.2.5new.png" width="800"/> 
 
 >**Note**: Do not click on the **Start** button. Due to time constraints, We will not be executing this pipeline.
 
 10. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
 
-![task-2.2.7.png](media/labMedia/task-2.2.7.png)
+ <img src="media/labMedia/task-2.2.7.png" width="800"/> 
+
 
 ---
 
