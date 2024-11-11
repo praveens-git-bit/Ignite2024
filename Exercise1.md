@@ -155,7 +155,7 @@ Now, this is something exciting and powerful! This section shows how easy it is 
 
 ![task-wb8S.png](media/labMedia/64.5.png)
 
-4. Select **Existing Lakehouse** and then click on ***Add***.
+4. Select **Existing Lakehouse with Schema** and then click on ***Add***.
 
 ![task-wb8S.png](media/labMedia/64.6.png)
 
