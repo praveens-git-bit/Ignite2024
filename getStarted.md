@@ -2,8 +2,7 @@
 
 1. Once the environment is provisioned, a virtual machine (JumpVM/Bastion) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. 
 
-
-![Started.](GetStarted/Task1.png)
+<img src="GetStarted/Task1.png" width="800"/>
 
 
 ### Know the right side of the tab, before performing the lab.
