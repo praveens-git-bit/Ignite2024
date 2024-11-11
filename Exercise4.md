@@ -71,7 +71,7 @@ thermostat
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="true"/> in the Azure Portal, and search for "Event Hubs Namespace" 
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and select **Event Hubs Namespace**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
@@ -87,7 +87,7 @@ thermostat
 
 ![eventhubnamespace](media/thermostatkey.png)
 
-12. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as "thermostat" and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+16. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as "thermostat" and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
 Shared Access Key Name:
 ```
@@ -102,60 +102,60 @@ thermostat
 
 ![pop-up3.png](media/labMedia/pop-up3.png)
 
-13. Select Data format as **JSON** and click on **Next** button.
+17. Select Data format as **JSON** and click on **Next** button.
 
 ![eventhouse15.png](media/labMedia/eventhouse15.png)
 
 >**Note:** Wait for the connection to be established.
 
-14. Click on the **Add** button.
+18. Click on the **Add** button.
 
 ![task-5.2.1new8.png](media/labMedia/task-5.2.1new8.png)
 
-15. In the Eventstream canvas, click on the **Add destination** dropdown and select **KQL Database**.
+19. In the Eventstream canvas, click on the **Add destination** dropdown and select **KQL Database**.
 
 ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
-16. Select the **Event processing before ingestion** radio button, enter "RealTimeData" as the Destination name.
+20. Select the **Event processing before ingestion** radio button, enter "RealTimeData" as the Destination name.
 
 ```
 RealTimeData
 ```
 
-17. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="true"/>. 
+21. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="true"/>. 
 
-18. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
+22. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
 
-18. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
+23. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
 
-19. Click on the **Create new** button.
+24. Click on the **Create new** button.
 
 ![eventhouse5.png](media/labMedia/eventhouse5.png)
 
-20. Enter the table name as "thermostat" and then click on the **Done** button.
+25. Enter the table name as "thermostat" and then click on the **Done** button.
 
 ```
 thermostat
 ```
 ![eventhouse6.png](media/labMedia/eventhouse6.png)
 
-21. Enter the Input data format as **Json**.
+26. Enter the Input data format as **Json**.
 
 >**Note:** Zoom-out on your screen if the Input data format field is not visible.
 
 ![eventhouse7.png](media/labMedia/eventhouse7.png)
 
-22. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
+27. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
 
 ![eventhouse8.png](media/labMedia/eventhouse8.png)
 
-23. Click on the **Publish** button.
+28. Click on the **Publish** button.
 
 ![task-5.2.15.png](media/labMedia/task-5.2.15.png)
 
 >**Note:** Wait for the data ingestion from EventHub to KQL DB.
 
-24. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
+29. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
 
 ![eventhouse17.png](media/labMedia/eventhouse17.png)
 
