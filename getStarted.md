@@ -9,7 +9,7 @@
 
 1. Lab guide tab contains all the steps you need to perform and complete the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
 
-<img src="GetStarted/Task3.png" width="800"/>
+![getstarted.png](GetStarted/Task3.png)
 
 2. Before Getting Started with the Lab explore all the tabs.
 
@@ -17,12 +17,12 @@
     - Environment Details
     - Help
 
-<img src="GetStarted/Task4.png" width="800"/>
+![getstarted.png](GetStarted/Task4.png)
 
 
 3. You can also view the lab guide in a separate and full window by selecting Split Window and collapse hides the lab guide by sliding out of the right screen.
 
-<img src="GetStarted/Task5.png" width="800"/>
+![getstarted.png](GetStarted/Task5.png)
 
 
 # Login to Azure Portal
@@ -49,11 +49,11 @@
  <inject key= "AzureAdUserPassword" enableCopy="true"/>
 ```
 
-<img src="GetStarted/Task9.png" width="800"/>
+![getstarted.png](GetStarted/Task9.png)
 
 5. Click on **Yes**.
 
-<img src="GetStarted/Task10.png" width="800"/>
+![getstarted.png](GetStarted/Task10.png)
 
 `Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.`
 
