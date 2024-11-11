@@ -9,7 +9,7 @@
 
 1. Lab guide tab contains all the steps you need to perform and complete the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
 
-![Started.](GetStarted/Task3.png)
+<img src="GetStarted/Task3.png" width="800"/>
 
 2. Before Getting Started with the Lab explore all the tabs.
 
@@ -17,23 +17,23 @@
     - Environment Details
     - Help
 
-![Started.](GetStarted/Task4.png)
+<img src="GetStarted/Task4.png" width="800"/>
 
 
 3. You can also view the lab guide in a separate and full window by selecting Split Window and collapse hides the lab guide by sliding out of the right screen.
 
-![Started.](GetStarted/Task5.png)
+<img src="GetStarted/Task5.png" width="800"/>
 
 
 # Login to Azure Portal
 
 1. In the JumpVM/Bastion, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
 
-![Started.](GetStarted/Task6.png)
+<img src="GetStarted/Task6.png" width="800"/>
 
 2. If you see the popup notification to Restore pages, close it.
 
-![Started.](GetStarted/Task7.png)
+<img src="GetStarted/Task7.png" width="800"/>
 
 3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
 
@@ -41,7 +41,7 @@
  <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
-![Started.](GetStarted/Task8.png)
+<img src="GetStarted/Task8.png" width="800"/>
 
 4. Now paste the following password and click on Signin.
 
@@ -49,17 +49,17 @@
  <inject key= "AzureAdUserPassword" enableCopy="true"/>
 ```
 
-![Started.](GetStarted/Task9.png)
+<img src="GetStarted/Task9.png" width="800"/>
 
 5. Click on **Yes**.
 
-![Started.](GetStarted/Task10.png)
+<img src="GetStarted/Task10.png" width="800"/>
 
 `Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.`
 
 6. Now you will see the Azure Portal Dashboard, Click on search bar and search for "rg-fabric-dpoc" Resource Group and select the Resource Group.
 
-![Started.](GetStarted/Task11.png)
+<img src="GetStarted/Task11.png" width="800"/>
 
 
 `Note: In the Resource Group there will be 7 resources.`
@@ -68,5 +68,5 @@
 
 `Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
 
-![Started.](GetStarted/Issue1.png)
+<img src="GetStarted/Issue1.png" width="800"/>
 
