@@ -56,7 +56,7 @@
 
 ![Started.](GetStarted/Task10.png)
 
-`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Maybe Later" to skip the tour and close the window.`
+`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Cancel" to skip the tour and close the window.`
 
 6. Now you will see the Azure Portal Dashboard, Click on search bar and search for "rg-fabric-dpoc" Resource Group and select the Resource Group.
 
