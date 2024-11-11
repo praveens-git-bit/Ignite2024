@@ -12,11 +12,11 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 2. Search for the Azure Databricks in the Resource group search field.
 
- ![azuredatabricks](media/databrickssearch.png)
+ <img src="media/databrickssearch.png" width="800"/> 
 
 3. Click on the **Launch Workspace**.
 
- ![azuredatabricks](media/launchdatabricks.png)
+ <img src="media/launchdatabricks.png" width="800"/>
 
 4. Click on the **Sign in with Microsoft Entra ID**.
 
