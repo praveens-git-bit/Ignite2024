@@ -76,7 +76,7 @@ Mirroring Azure Databricks catalog structure to Fabric enables the access of the
 
 1. Navigate back to the Microsoft Fabric tab on your browser 
 ```BASH
-https://app.fabric.microsoft.com
+https://app.powerbi.com/
 ```
 
 2. Click on the **ContosoSales...** and select **New item** from menu bar.
