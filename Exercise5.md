@@ -26,7 +26,7 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder in your VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+4. Browse to the fabricnotebooks folder "C:\LabFiles\02_lab\artifacts\fabricnotebooks" in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 5. Click on the **Open** button.
 
