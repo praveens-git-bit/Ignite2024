@@ -9,7 +9,7 @@
 Open the new tab in the browser and copy paste the below URL to verify app service streaming data.
 
 ```BASH
- <inject key= "NameSpaceBrowse" enableCopy="true"/>
+<inject key= "NameSpaceBrowse" enableCopy="true"/>
 ```
 
 **Wait** for the page to load. You will see a page like the one shown below.
