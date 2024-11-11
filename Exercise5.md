@@ -77,6 +77,8 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.13.png)
 
 17. Click on the **Copilot** button and then click on the **Get Started** button.
+ 
+ Note: If the Copilot is not visible please click on eclipse **:** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
