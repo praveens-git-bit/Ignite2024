@@ -87,8 +87,9 @@ You will now see how easy it is for the data analyst to create compelling Power 
 17. Select the option **What's in my data?**
 
 > **Note:** If you don't see the 'What's in my data?' option, click in the **Copilot chat box** field, enter the prompt below, and click the **Send** button: 
-+++What's in my data?+++
-
+```
+What's in my data?
+```
 ![promptguide2.png](media/labMedia/promptguide2.png)
 
 
