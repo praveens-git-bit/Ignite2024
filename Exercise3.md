@@ -12,6 +12,8 @@ With the wide spectrum of data sources and Litware's data in OneLake, it is now 
 
 2. Click on **Filter** and select **Lakehouse**.
 
+Note: Please collapse **Task filter** if **Type filter** is not seen.
+
 ![task-1.3-ext-shortcut1.png](media/labMedia/task-1.3-ext-shortcut1.png)
 
 3. Click on the **lakehouse**.
