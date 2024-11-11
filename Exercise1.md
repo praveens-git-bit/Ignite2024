@@ -278,6 +278,8 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 <img src="media/56.png" width="800"/> 
 
 15. Click on **Add destination**, select **Lakehouse**.
+  
+  Note: If **Add destination** is not visible, click on **Query** dropdown and click on **Add destination** to select "Lakehouse" 
 
 <img src="media/57.png" width="800"/> 
 
@@ -321,6 +323,8 @@ Congrats for completing this data transformation exercise! As you know, Litware 
   <img src="media/44.png" width="800"/>
 
 5. Click on the **attach** icon on the Bronze data tile.
+
+   Note: Please zoom in, if the tiles are not visible.
 
 ![databrickssignin.png](media/labMedia/task15.2.png)
 
