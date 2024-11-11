@@ -32,7 +32,7 @@ Contoso-Eventhouse
 
 5. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![eventhouse3.png](media/labMedia/eventhouse3.png)
+![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
 
 6. Select **Eventstream**.
 
@@ -46,11 +46,11 @@ RealtimeDataTo-KQL-DB
 
 ![Eventst-name1.png](media/labMedia/Eventst-name1.png)
 
-8. Click on the **Add external source** button.
+8. Click on the **Use external source** button.
 
 ![eventhouse12.png](media/labMedia/eventhouse12.png)
 
-9. Click on the **Azure Event Hub** button.
+9. Click on the **Azure Event Hubs connect** button.
 
 ![task-5.2.1new1.0.4.png](media/labMedia/task-5.2.1new1.0.4.png)
 
