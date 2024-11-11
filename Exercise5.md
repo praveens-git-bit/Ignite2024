@@ -64,9 +64,9 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
 
-14. Make sure that **Existing Lakehouse** radio button is selected and then click on the **Add** button.
+14. Make sure that **Existing Lakehouse with Schema** radio button is selected and then click on the **Add** button.
 
-![task-3.1.2.png](media/labMedia/exercise5_1.3.11.png)
+![task-3.1.2.png](media/labMedia/64.6.png)
 
 15. Select the **lakehouse** checkbox.
 
