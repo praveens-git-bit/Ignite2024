@@ -215,7 +215,7 @@ In this exercise, you will experience how easy it is to use Copilot to transform
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
-3. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
+3. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**), if the **Get data** is not seen, click on the drop down.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
 
@@ -302,7 +302,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 Congrats for completing this data transformation exercise! As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
 
 
-### Task 1.4: Explore Task Flows in Microsoft Fabric
+### Task 1.5: Explore Task Flows in Microsoft Fabric
 
 1. Click on workspace **ContosoSales...** and drag the **bar down** to view Taskflow feature tab.
   
