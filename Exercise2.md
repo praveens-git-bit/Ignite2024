@@ -82,7 +82,9 @@ https://app.powerbi.com/
 
 2. Click on the **ContosoSales...** and select **New item** from menu bar.
 
-![Task-2.3_1.png](media/labMedia/Task-2.3_1.png)
+   Note: If the contosoSales.. workspace is not found in the sidebar, click on the workspace and navigate to **contosoSales..**
+
+ <img src="media/labMedia/Task-2.3_1.png" width="800"/> 
 
 3. In the **New item** window, scroll down and click on **Microsoft Azure Databricks catalog (preview)**.
 
