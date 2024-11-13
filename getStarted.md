@@ -70,6 +70,6 @@
 ![Started.](GetStarted/Task11.png)
 
 
->**Note:** In the Resource Group, there are **23 resources**.
+>**Note:** In the Resource Group, there are **8 resources**.
 
 ![Started.](GetStarted/resourcegroup.png)
