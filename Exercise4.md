@@ -4,6 +4,9 @@ Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are
 
 ### Task 4.1: Ingest real-time/historical data into Eventhouse using Eventstream
 
+
+In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data from the event hub into the KQL Database to monitor in-store temperatures in real time.
+
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Factory** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
 ![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
@@ -34,7 +37,7 @@ Contoso-Eventhouse
 
 ![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
 
-6. Select **Eventstream**.
+6. click on **Eventstream** button.
 
 ![eventhouse4.png](media/labMedia/eventhouse4.png)
 
@@ -58,20 +61,19 @@ RealtimeDataTo-KQL-DB
 
 ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
-11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="true"/> and enter the **Event Hub** value as ```thermostat```.
+11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="false"/> and enter the **Event Hub** value as **thermostat**.
 
-EventHub Namespace:
 ```BASH
 <inject key="eventhubNamespace" enableCopy="true"/>
 ```
-Event Hub:
+
 ```
 thermostat
 ```
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and select **Event Hubs Namespace**.
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and select **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
@@ -112,7 +114,7 @@ thermostat
 
 ![task-5.2.1new8.png](media/labMedia/task-5.2.1new8.png)
 
-19. In the Eventstream canvas, click on the **Add destination** dropdown and select **KQL Database**.
+19. In the Eventstream canvas, click on the **Add destination** dropdown and select **Eventhouse**.
 
 ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
@@ -122,7 +124,7 @@ thermostat
 RealTimeData
 ```
 
-21. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="true"/>. 
+21. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="false"/>. 
 
 22. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
 
@@ -161,7 +163,7 @@ thermostat
 
 Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
----
+
 
 ### Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
@@ -177,7 +179,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 ![eventhouse3.png](media/labMedia/eventhouse3.png)
 
-3. Select **KQL Queryset**.
+3. Click on **KQL Queryset** button.
 
 ![eventhouse9.png](media/labMedia/eventhouse9.png)
 
@@ -220,4 +222,4 @@ Create a query to summarize average temperature every 1 min in line chart
 
 ![task-5.3.8.png](media/labMedia/task-5.3.8.png)
 
-So, imagine if one of the aisles had a sudden rise in temperature. Customers start leaving that aisle and the wait times in the checkout lines start to increase. But thanks to the KQL Queries, those anomalies would be tracked, and immedia/labMediate notifications would be generated to bring the aisle temperature back to optimal levels! Now, after all these amazing data transformations in OneLake in a healthy ecosystem with Azure Databricks, can we actually predict customer churn for the future? Absolutely! In fact, in the next exercise, let’s see the power of Microsoft Fabric and Azure Databricks to do just that!
+Imagine one of the aisles had a sudden rise in temperature due to an anomaly. Customers start leaving that aisle and the wait times in the checkout lines start to increase but thanks to the KQL Queries, those anomalies would be tracked, and immediately notifications would be generated to bring the aisle temperature back to optimal levels!

@@ -36,9 +36,9 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 
 ## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), Mirrored Azure Databricks Catalog
 
- - Task 2.1: Create Delta Live Table pipeline for Data Transformation
+ - Task 2.1: Explore Delta Live Table pipeline for Data Transformation
  - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI)
- - Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
+ - Task 2.3: Create a mirrored Azure Databricks catalog in Fabric and analyze data using T-SQL
 
 ## Exercise 3: Power BI Experience in Fabric
  
@@ -52,7 +52,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 ## Exercise 5: Explorer Data Science experience in Microsoft Fabric (Optional)
  
 - Task 5.1: Build ML models and experiments using Copilot in Fabric
-- Task 5.2: Leverage AI skills for Q&A
+- Task 5.2: Leverage AI skills for Q&A 
 
 ## Exercise 6: Data Warehouse experience (Optional)
 - Task 6.1: Create Mirrored Azure SQL DB in Fabric

@@ -1,24 +1,22 @@
 ### Exercise 5: Explorer Data Science experience in Microsoft Fabric (Optional)
  
-Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights.
-
-You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
+Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
 ### Task 5.1: Build ML models and experiments using Copilot in Fabric
 
 ![task-3.1.1.png](media/labMedia/exercise5_1.1.png)
 
-To understand the cause behind Contoso’s declining revenue, the team needed to dive deeper into their customers’ spending pattern. 
+To understand the cause behind Contoso’s declining revenue, the team needed to dive deeper into their customers’ spending pattern.
 
 Copilot responds to queries in natural language or generates customized code snippets for tasks like creating charts, filtering data, applying transformations, and building machine learning models.
 
-Let’s see how copilot for notebook helped you to quickly create data science notebooks.
+Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly create Data Science Notebooks.
 
 1. Switch to the **Data Science** experience using the experience switcher icon in the left corner.
 
    ![task-3.1.1.png](media/labMedia/exercise5_1.2.png)
 
-2. Click on Import notebook.
+2. Click on **Import notebook** button.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.png)
 
@@ -26,7 +24,7 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder "C:\LabFiles\02_lab\artifacts\fabricnotebooks" in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+4. Browse to the fabricnotebooks folder **"C:\LabFiles\01_Pre_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 5. Click on the **Open** button.
 
@@ -36,7 +34,7 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.3.png)
 
-7. Click on the **ContosoSales...** workspace from the left navigation pane.
+7. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
@@ -78,7 +76,7 @@ Let’s see how copilot for notebook helped you to quickly create data science n
 
 17. Click on the **Copilot** button and then click on the **Get Started** button.
  
- Note: If the Copilot is not visible please click on eclipse **:** and select Copilot.
+>**Note:** If the Copilot is not visible please click on eclipse **":"** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
@@ -108,9 +106,19 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
-23. Paste the **copied query** and run the new **cell**.
+23. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
+
+**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
+
+```
+# Load the table into a Spark DataFrame
+spark_df = spark.table('lakehouse.customerchurndata')
+ 
+# Convert the Spark DataFrame to a pandas DataFrame
+df = spark_df.toPandas()
+```
 
 24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
 
@@ -142,7 +150,7 @@ Create a pivot table of average with min and max total amount by store contract 
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.12.1.png)
 
-30. Add a **new code cell** to the notebook, paste following **query** to the cell and then run the **cell**.
+30. Add a **new code cell** to the notebook, paste following **query** to the cell and then **run** the **cell**.
 
 ```
 %%chat 
@@ -159,18 +167,22 @@ Create a seaborn scatterplot with Tenure Total Amount and Churn
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.14.png)
 
-With prepared data and with the help of copilot as we just saw, you may explore the data to understand the patterns it contained.
+With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
 The rest of the notebook has similar PySpark queries to explore customer churn prediction.
 
 
 ### Task 5.2: Leverage AI skills for Q&A
 
+AI Skill, a new capability in Fabric, allows Data Analysts like Serena to create their own generative AI experiences. Serena believes that generative AI offers a transformative way to interact with data, significantly boosting data-driven decision-making in organizations worldwide. 
+
+In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage AI Skill to create conversational question-and-answer (Q&A) systems. 
+
 1. From the left navigation pane select **Data Science** experience.
 
 ![task-5.2](media/labMedia/AIskill1.png)
 
-2. Click on **>** Forward Arrow and select **AI Skill**.
+2. Select **AI Skill**. If it is not visible, scroll down the page.
 
 ![task-5.2](media/labMedia/AIskill2.png)
 
@@ -193,15 +205,15 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 ![task-5.2](media/labMedia/AIskill5.png)
 
-6. Click on **Get Started**.
+6. Click on **Get Started** button.
 
 ![task-5.2](media/labMedia/AIskill6.png)
 
-8. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
+7. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
 
 ![task-5.2](media/labMedia/AIskill7.png)
 
-9. AI Skill answered the question fairly well based on the selected tables.
+8. AI Skill answered the question fairly well based on the selected tables.
 
 However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 
@@ -213,19 +225,22 @@ Whenever I ask about "the most sold" products or items, the metric of interest i
 The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
 ```
 
-10. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
+9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
+```
+What is the most sold product ?
+```
 Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
 
 ![task-5.2](media/labMedia/AIskill8.png)
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-11. In the example SQL queries click on **edit** icon.
+10. In the example SQL queries click on **edit** icon.
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
-12. Click on **+ Add example** and enter the following question and their respective SQL queries.
+11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
 |--------|----------|
@@ -234,22 +249,26 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill10.png)
 
-13. Click on **close(X)** button.
+12. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-14. Type **who are the top 5 customers by total sales amount?** in the chatbox and click on **Send** button.
+13. Type  the below prompt in the chatbox and click on **Send** button.
+
+```
+who are the top 5 customers by total sales amount?
+```
 
 ![task-5.2](media/labMedia/AIskill12.png)
 
-15. Click on **Publish**.
+14. Click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill13.png)
 
-16. In the pop-up screen click on **Publish**.
+15. In the pop-up screen click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
-17. Notice that AI skill is published successfully.
+16. Notice that AI skill is published successfully.
 
 ![task-5.2](media/labMedia/AIskill15.png)
