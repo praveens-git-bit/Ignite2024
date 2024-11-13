@@ -62,11 +62,7 @@
 <img src="GetStarted/Task11.png" width="800"/>
 
 
-`Note: In the Resource Group there will be 7 resources.`
+`Note: In the Resource Group there will be 8 resources.`
 
-#
 
-`Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
-
-<img src="GetStarted/Issue1.png" width="800"/>
 
