@@ -1,6 +1,6 @@
 
 # Lab423: Elevate your data workflow with Microsoft Fabric, Copilot and Azure Databricks DREAM Lab
-**The estimated time to complete this lab is 50-60 minutes.**
+**The estimated time to complete this lab is 50 - 60 Minutes.**
 
 **DISCLAIMER**
 
@@ -32,41 +32,40 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 1.2: Use the ‘New Shortcut’ option from external data sources
  - Task 1.3: Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
- - Task 1.5: Explore Task Flows in Microsoft Fabric
 
 ## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), Mirrored Azure Databricks Catalog
 
- - Task 2.1: Explore Delta Live Table pipeline for Data Transformation
+ - Task 2.1: Create Delta Live Table pipeline for Data Transformation
  - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI)
- - Task 2.3: Create a mirrored Azure Databricks catalog in Fabric and analyze data using T-SQL
-
-## Exercise 3: Power BI Experience in Fabric
+ - Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
  
-- Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
-
-## Exercise 4: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB
+## Exercise 4: Power BI Experience in Fabric
  
-- Task 4.1: Ingest real-time/historical data into Eventhouse using Eventstream
-- Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
+- Task 4.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-## Exercise 5: Explorer Data Science experience in Microsoft Fabric (Optional)
+## Exercise 5: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB
  
-- Task 5.1: Build ML models and experiments using Copilot in Fabric
-- Task 5.2: Leverage AI skills for Q&A 
+- Task 5.1: Ingest real-time/historical data into Eventhouse using Eventstream
+- Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
-## Exercise 6: Data Warehouse experience (Optional)
-- Task 6.1: Create Mirrored Azure SQL DB in Fabric
-- Task 6.2: Analyze the Mirrored Azure SQL Database data using T-SQL
+## Exercise 6: Explorer Data Science experience in Microsoft Fabric
+ 
+- Task 6.1: Build ML models and experiments using Copilot in Fabric
+- Task 6.2: Leverage AI skills for Q&A 
+
+## Exercise 7: Mirroring Azure SQL DB in Fabric
+- Task 7.1: Create Mirrored Azure SQL DB in Fabric
+- Task 7.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
 ## Overview
 ![buildarch.png](media/labMedia/ignite_architecture_diagram.png)
 
-This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation. 
+This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation.
  
-The visual illustrates the real-world example for Contoso, a fictitious company. 
+The visual illustrates the real-world example for Contoso, a fictitious company.
 
-Contoso is a retailer with thousands of brick-and-mortar stores across the world and an online store. Contoso is acquiring Litware Inc., which has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen2. Contoso also has their customer churn data stored in the gold layer in ADLS Gen2. 
- 
+Contoso is a retailer with thousands of brick-and-mortar stores across the world and an online store. Contoso is acquiring Litware Inc., which has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen2. Contoso also has their customer churn data stored in the gold layer in ADLS Gen2.
+
 In the following exercises, you will see how the Contoso team leveraged the power of Microsoft Fabric to ingest data from a spectrum of sources, combine Litware's data with their existing data from ADLS Gen2, and derive meaningful insights. Explore how they used a shortcut to reference Litware’s existing data from ADLS Gen2. Finally, you will see how Contoso’s data architects utilized Unity Catalog to quickly get up to speed on the acquired company’s data. You will also see the power of creating LLM Chatbots with the Databricks Data Intelligence Platform to achieve an unprecedented market sentiment for Contoso.
 
 The lab scenario begins on January 30th. The new CEO, April, has noticed some negative trends in the company’s key metrics, including:

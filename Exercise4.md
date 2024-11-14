@@ -29,19 +29,19 @@ Contoso-Eventhouse
 
 ![eventhouse2.png](media/labMedia/eventhouse2.png)
 
->**Note:** If you see a pop-up like the one in the screenshot below, ignore it and proceed with the next step.
+>**Note:** If you see a **pop-up** like the one in the screenshot below, ignore it and proceed with the next step.
 
 ![eventhouse16.png](media/labMedia/eventhouse16.png)
 
 5. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
+![Realtime-Intelligence.png](media/labMedia/eventhouse3.png)
 
 6. click on **Eventstream** button.
 
 ![eventhouse4.png](media/labMedia/eventhouse4.png)
 
-7. Enter the name as "RealtimeDataTo-KQL-DB" and tick a checkbox 'Enhanced Capabilities(preview)' then click on **Create** button.
+7. Enter the name as **RealtimeDataTo-KQL-DB** and tick a checkbox **Enhanced Capabilities(preview)** then click on **Create** button.
 
 ```
 RealtimeDataTo-KQL-DB
@@ -73,7 +73,7 @@ thermostat
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and select **<inject key="eventhubNamespace" enableCopy="false"/>**.
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
@@ -81,17 +81,18 @@ thermostat
 
 ![eventhubnamespace](media/listeventhubs.png)
 
-14. Click on the thermostat event hub.
+14. Click on the **thermostat event hub**.
 
 ![eventhubnamespace](media/thermostat.png)
 
-15. Click on Shared access policies in the left pane under Settings, then click on thermostat and finally copy the primary key and paste it in a notepad for further use.
+15. Click on **Shared access policies** in the left pane under Settings, then click on **thermostat** and finally copy the **primary key** and paste it in a notepad for further use.
+
+>**Note:** Expand the **settings** option if the left navigations are collapsed.
 
 ![eventhubnamespace](media/thermostatkey.png)
 
-16. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as "thermostat" and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+16. Go back to the **Microsoft Fabric** and scroll down to the **Authentication kind** and select **Shared Access Key**, in the **Shared Access Key Name** field enter **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
-Shared Access Key Name:
 ```
 thermostat
 ```
@@ -130,40 +131,42 @@ RealTimeData
 
 23. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
 
-24. Click on the **Create new** button.
+24. In the **KQL Destination table** field, click on **Create new** button. 
+
+25. Click on the **Create new** button.
 
 ![eventhouse5.png](media/labMedia/eventhouse5.png)
 
-25. Enter the table name as "thermostat" and then click on the **Done** button.
+26. Enter the table name as **thermostat** and then click on the **Done** button.
 
 ```
 thermostat
 ```
 ![eventhouse6.png](media/labMedia/eventhouse6.png)
 
-26. Enter the Input data format as **Json**.
+27. Enter the Input data format as **Json**.
 
->**Note:** Zoom-out on your screen if the Input data format field is not visible.
+>**Note:** Zoom-out on your screen if the **Input data format field** is not visible.
 
 ![eventhouse7.png](media/labMedia/eventhouse7.png)
 
-27. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
+28. Drag Arrow from **RealtimeDataTo-KQL** and connect it to **RealTimeData**.
 
 ![eventhouse8.png](media/labMedia/eventhouse8.png)
 
-28. Click on the **Publish** button.
+29. Click on the **Publish** button.
 
 ![task-5.2.15.png](media/labMedia/task-5.2.15.png)
 
->**Note:** Wait for the data ingestion from EventHub to KQL DB.
+>**Note:** Wait for the data ingestion from EventHub to KQL DB, In the RealTimeData canvas, the status will appear as **Active**, confirming that the streaming has started successfully.
 
-29. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
+30. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
 
 ![eventhouse17.png](media/labMedia/eventhouse17.png)
 
 Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
-
+---
 
 ### Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
@@ -177,7 +180,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 2. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![eventhouse3.png](media/labMedia/eventhouse3.png)
+![Realtime-Intelligence.png](media/labMedia/eventhouse3.png)
 
 3. Click on **KQL Queryset** button.
 
@@ -205,12 +208,13 @@ Query Thermostat Data in Near Real-time using KQL Script
 
 8. **Paste** the query provided below in the Copilot query section.
 
-
 ```
 Create a query to summarize average temperature every 1 min in line chart
 ```
 
 9. Click on the **Send** icon.
+
+>**Note:** If you receive a response from Copilot such as "I am not sure" please ask the question again.
 
 >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response. 
 

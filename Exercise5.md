@@ -10,7 +10,7 @@ To understand the cause behind Contoso’s declining revenue, the team needed to
 
 Copilot responds to queries in natural language or generates customized code snippets for tasks like creating charts, filtering data, applying transformations, and building machine learning models.
 
-Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly create Data Science Notebooks.
+Let’s see how Copilot for Notebook helps you, as a Data Scientist, quickly create Data Science Notebooks.
 
 1. Switch to the **Data Science** experience using the experience switcher icon in the left corner.
 
@@ -24,7 +24,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder **"C:\LabFiles\01_Pre_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+4. Browse to the fabricnotebooks folder **"C:\LabFiles\02_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 5. Click on the **Open** button.
 
@@ -62,7 +62,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
 
-14. Make sure that **Existing Lakehouse with Schema** radio button is selected and then click on the **Add** button.
+14. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/64.6.png)
 
@@ -86,7 +86,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
-19. Copy and paste the **below prompt** in the textbox.
+19. Copy and paste the following **prompt** in the textbox.
 
 ```
 Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df
@@ -102,15 +102,18 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-22. Click on a **+ Code** above the first cell of the notebook.
+22. Hover above the first cell and then click on the **+ Code** icon.
+
+>**Note:** The new cell will be created right above the existing cell.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
+
 
 23. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
-**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
+>**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
 
 ```
 # Load the table into a Spark DataFrame
@@ -120,52 +123,7 @@ spark_df = spark.table('lakehouse.customerchurndata')
 df = spark_df.toPandas()
 ```
 
-24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
-
-```
-&debug.enableCopilot=1&debug.enableChatWidget=1&debug.enableQuickAssist=1
-```
-
-![task-3.1.2.png](media/labMedia/exercise5_1.10.png)
-
-25. Click on a **+ Code** above the cell, place your **cursor** in the cell and then click on the **Copilot** button.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.10.1.png)
-
-26. Enter the below prompt in the Copilot textbox: 
-
-```
-Create a pivot table of average with min and max total amount by store contract and churn. Then show output of the pivot table.
-```
-
-27. Click on the **Send** icon.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.11.png)
-
-28. Click on the **Accept** button.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.12.png)
-
-29. Run the cell and observe the output.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.12.1.png)
-
-30. Add a **new code cell** to the notebook, paste following **query** to the cell and then **run** the **cell**.
-
-```
-%%chat 
-Create a seaborn scatterplot with Tenure Total Amount and Churn
-```
-
-![task-3.1.2.png](media/labMedia/exercise5_1.13.png)
-
-31. Introduce an error in a previous cell by **removing a character** in the code.
-
-32. Run the **code cell** with the error.
-
-33. Click on **Fix with copilot**.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.14.png)
+>**Note:** It may take some time for the copilot to generate query.
 
 With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
@@ -209,9 +167,15 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill6.png)
 
-7. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
+7. Past the following question **What is the most sold product?** in the chatbox and click on the **Send** button.
+
+```
+What is the most sold product?
+```
 
 ![task-5.2](media/labMedia/AIskill7.png)
+
+>**Note:** This may take some time; please wait until a response is received.
 
 8. AI Skill answered the question fairly well based on the selected tables.
 
@@ -225,7 +189,9 @@ Whenever I ask about "the most sold" products or items, the metric of interest i
 The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
 ```
 
-9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
+9. Copy the above notes and paste it in **Notes for model** box.
+    
+10. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
 ```
 What is the most sold product ?
@@ -240,6 +206,8 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
+>**Note:** Make sure you have allowed copy to clipboard in the browser lock.
+
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
@@ -247,13 +215,15 @@ In addition to instructions, examples serve as another effective way to guide th
 |who are the top 5 customers by total sales amount?|SELECT TOP 5 CONCAT(dc.FirstName, ' ', dc.LastName) AS CustomerName, SUM(fis.SalesAmount) AS TotalSpent FROM factinternetsales fis JOIN dimcustomer dc ON fis.CustomerKey = dc.CustomerKey GROUP BY CONCAT(dc.FirstName, ' ', dc.LastName) ORDER BY TotalSpent DESC;|
 |what is the total sales amount by year?|SELECT dd.CalendarYear, SUM(fis.SalesAmount) AS TotalSales FROM factinternetsales fis JOIN dimdate dd ON fis.OrderDateKey = dd.DateKey GROUP BY dd.CalendarYear ORDER BY dd.CalendarYear;|
 
+>**Note:** This may take some time; please wait until the SQL query is copied to the box.
+
 ![task-5.2](media/labMedia/AIskill10.png)
 
 12. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-13. Type  the below prompt in the chatbox and click on **Send** button.
+13. Type  the following **prompt** in the chatbox and click on **Send** button.
 
 ```
 who are the top 5 customers by total sales amount?

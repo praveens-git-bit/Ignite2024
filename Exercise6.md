@@ -1,5 +1,5 @@
 
-### Exercise 6:  Datawarehouse Experience (Optional)
+### Exercise 6:  Mirroring Azure SQL DB Experience
 
 ### Task 6.1: Create Azure SQL DB Mirroring in Fabric
 
@@ -44,7 +44,7 @@ labsqladmin
 Smoothie@2024
 ```
 
-![task-1.3.16.png](media/labMedia/connect.png)
+![connectsql.png](media/labMedia/connectsql.png)
 
 >**Note:** Close any pop-up that you see throughout the lab.
 
@@ -52,7 +52,7 @@ Smoothie@2024
 
 ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-8. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on Create **mirrored database** button.
+8. In the name field, enter **Mirrored_SalesDb1** and click on **Create mirrored database** button.
 
 ```
 Mirrored_SalesDb1
@@ -68,6 +68,8 @@ Mirrored_SalesDb1
 
 ![Task-6.1_11.png](media/labMedia/Task-6.1_11.png)
 
+>**Note:** It might take approximately 3-5 minutes for the **Rows replicated** column to get populated. Try clicking on the **Refresh** icon again.
+
 11. Close the **Monitor replication** window.
 
 ---
@@ -82,9 +84,11 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. You can select the mirrored tables to see data preview. Click on **New SQL query** button from the menu bar.
+2. Expand the **Schemas** and You can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
 
 ![Task-6.2_2.png](media/labMedia/Task-6.2_2.png)
+
+>**Note:** Click on the Refresh button if you are not able view the Tables.
 
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
