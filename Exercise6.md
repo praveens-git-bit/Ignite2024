@@ -24,7 +24,7 @@ https://app.powerbi.com
 
 ![Task-6.1_3.png](media/labMedia/Task-6.1_3.png)
 
-5. In the **Server** field, paste <inject key="mssqlServer" enableCopy="false"/> , In **Database** field paste ```SalesDb```.
+5. In the **Server** field, paste **<inject key="mssqlServer" enableCopy="false"/>** , In **Database** field paste **SalesDb**.
 
 ```BASH
 <inject key="mssqlServer" enableCopy="false"/>
