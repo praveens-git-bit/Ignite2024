@@ -29,7 +29,7 @@ Contoso-Eventhouse
 
 ![eventhouse2.png](media/labMedia/eventhouse2.png)
 
->**Note:** If you see a **pop-up** like the one in the screenshot below, ignore it and proceed with the next step.
+>**Note:** If you see a **pop-up** like the one in the screenshot below, click on get started and close the pop-up if any appears.
 
 ![eventhouse16.png](media/labMedia/eventhouse16.png)
 
@@ -73,7 +73,7 @@ thermostat
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
+12. Navigate back to the Resource Group **rg-ignite24** in the Azure Portal, and search for "Event Hubs Namespace" and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
