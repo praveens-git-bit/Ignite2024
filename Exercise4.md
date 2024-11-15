@@ -184,6 +184,8 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 3. Click on **KQL Queryset** button.
 
+>**Note:** If the KQL Queryset is not visible on screen, click on the slider **< >** buttons in the **Recommended items to create** to select **KQL Queryset**.
+
 ![eventhouse9.png](media/labMedia/eventhouse9.png)
 
 4. In the KQL Queryset name field, "Query Thermostat Data in Near Real-time using KQL Script" and click on the **Create** button.
