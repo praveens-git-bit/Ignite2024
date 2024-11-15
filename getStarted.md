@@ -65,12 +65,12 @@
    
 >**Note:** After logging into the Azure Portal, if a pop-up page titled **"Welcome to Microsoft Azure"** appears, click **Cancel** to skip the tour.
 
-7. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **<inject key= "resourcegroup" enableCopy="true"/>**.
+7. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **rg-ignite24**.
    
 ![Started.](GetStarted/Task11.png)
 
 
->**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **23 resources**.
+>**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **8 resources**.
 
 ![Started.](GetStarted/resourcegroup.png)
 
