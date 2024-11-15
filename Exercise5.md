@@ -24,92 +24,92 @@ Let’s see how Copilot for Notebook helps you, as a Data Scientist, quickly cre
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder **"C:\LabFiles\02_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
-
-5. Click on the **Open** button.
+4. Copy paste the following path **"C:\LabFiles\02_lab\artifacts\fabricnotebooks"** in the path field and hit **Enter** in the Keyboard.
+5. Select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+6. Click on the **Open** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.2.png)
 
-6. Wait for the notebook to **upload**.
+7. Wait for the notebook to **upload**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.3.png)
 
-7. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
+8. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
-8. Click on **Filter**, expand **Type** and select **Notebook**.
+9. Click on **Filter**, expand **Type** and select **Notebook**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.5.png)
 
-9. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+10. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.6.png)
 
-10. Click on **Lakehouses** in the Explorer pane.
+11. Click on **Lakehouses** in the Explorer pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.7.png)
 
-11. Click on **Missing Lakehouses** and then click on **Remove all Lakehouse**.
+12. Click on **Missing Lakehouses** and then click on **Remove all Lakehouse**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.8.png)
 
-12. Click on the **Continue** button.
+13. Click on the **Continue** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.9.png)  
 
-13. Click on the **+ Lakehouse** button.
+14. Click on the **+ Lakehouse** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
 
-14. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
+15. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/64.6.png)
 
-15. Select the **lakehouse** checkbox.
+16. Select the **lakehouse** checkbox.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.12.png)
 
-16. Click on the **Add** button.
+17. Click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.13.png)
 
-17. Click on the **Copilot** button and then click on the **Get Started** button.
+18. Click on the **Copilot** button and then click on the **Get Started** button.
  
 >**Note:** If the Copilot is not visible please click on eclipse **":"** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
-18. Run the **first cell** of the notebook to install the copilot packages.
+19. Run the **first cell** of the notebook to install the copilot packages.
 
 >**Note:** This may take a while to execute, please wait till this load completely.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
-19. Copy and paste the following **prompt** in the textbox.
+20. Copy and paste the following **prompt** in the textbox.
 
 ```
 Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df
 ```
 
-20. Click on the **send** button.
+21. Click on the **send** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.png)
 
-21. Click on the **Copy code** icon.
+22. Click on the **Copy code** icon.
 
 >**Note:** The new cell will be created right above the cell.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-22. Hover above the first cell and then click on the **+ Code** icon.
+23. Hover above the first cell and then click on the **+ Code** icon.
 
 >**Note:** The new cell will be created right above the existing cell.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
 
-23. Paste the copied **query** and run the new **cell**.
+24. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
@@ -202,13 +202,13 @@ Asking the question again returns a different answer, **Mountain-200 Black, 46**
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-10. In the example SQL queries click on **edit** icon.
+11. In the example SQL queries click on **edit** icon.
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
 >**Note:** Make sure you have allowed copy to clipboard in the browser lock.
 
-11. Click on **+ Add example** and enter the following question and their respective SQL queries.
+12. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
 |--------|----------|
@@ -219,11 +219,11 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill10.png)
 
-12. Click on **close(X)** button.
+13. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-13. Type  the following **prompt** in the chatbox and click on **Send** button.
+14. Type  the following **prompt** in the chatbox and click on **Send** button.
 
 ```
 who are the top 5 customers by total sales amount?
@@ -231,14 +231,14 @@ who are the top 5 customers by total sales amount?
 
 ![task-5.2](media/labMedia/AIskill12.png)
 
-14. Click on **Publish** button.
+15. Click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill13.png)
 
-15. In the pop-up screen click on **Publish** button.
+16. In the pop-up screen click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
-16. Notice that AI skill is published successfully.
+17. Notice that AI skill is published successfully.
 
 ![task-5.2](media/labMedia/AIskill15.png)
