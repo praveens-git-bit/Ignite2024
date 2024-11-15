@@ -26,10 +26,10 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 
 ## Table of Contents
  
-## Exercise 1: Data Engineering/Data Factory experience - Data ingestion from a spectrum of analytical data sources into OneLake
+## Exercise 1: Data Engineering and Data Factory experience: Data ingestion from a spectrum of analytical data sources into OneLake
  
  - Task 1.1: Create a Microsoft Fabric enabled workspace
- - Task 1.2: Use the ‘New Shortcut’ option from external data sources
+ - Task 1.2: Use the New Shortcut option from external data sources
  - Task 1.3: Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
 
@@ -39,23 +39,23 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI)
  - Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
  
-## Exercise 4: Power BI Experience in Fabric
+## Exercise 3: Power BI Experience in Fabric
  
-- Task 4.1: Create a Semantic model and generate insights using Copilot for Power BI
+- Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-## Exercise 5: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB
+## Exercise 4: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB
  
-- Task 5.1: Ingest real-time/historical data into Eventhouse using Eventstream
-- Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
+- Task 4.1: Ingest real-time data into Eventhouse using Eventstream
+- Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
 ## Exercise 6: Explorer Data Science experience in Microsoft Fabric
  
-- Task 6.1: Build ML models and experiments using Copilot in Fabric
-- Task 6.2: Leverage AI skills for Q&A 
+- Task 5.1: Build ML models and experiments using Copilot in Fabric
+- Task 5.2: Leverage AI skills
 
-## Exercise 7: Mirroring Azure SQL DB in Fabric
-- Task 7.1: Create Mirrored Azure SQL DB in Fabric
-- Task 7.2: Analyze the Mirrored Azure SQL Database data using T-SQL
+## Exercise 6: Mirroring Azure SQL DB in Fabric
+- Task 6.1: Create Mirrored Azure SQL DB in Fabric
+- Task 6.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
 ## Overview
 ![buildarch.png](media/labMedia/ignite_architecture_diagram.png)
