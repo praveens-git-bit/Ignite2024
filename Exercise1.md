@@ -32,7 +32,7 @@ https://app.fabric.microsoft.com/home
 
 >**Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
-2. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
+2. Scroll down below to the, **"Data Engineering"** and click on it.
 
    <img src="media/dataengineer.png" width="800"/>   
 
@@ -93,7 +93,7 @@ In just a few seconds, the Lakehouse is ready. With the right access, you, as a 
 
 ---
 
-### Task 1.2: Use the ‘New Shortcut’ option from external data sources
+### Task 1.2: Use the New Shortcut option from external data sources
 
 Now, this is something exciting! This section shows how easy it is to create Shortcuts without moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 using the New Shortcut option. Let’s see how!
 
@@ -101,7 +101,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 2. Click on **New shortcut**.
 
->**Note:** Make sure you create a shortcut under **files** and not under **tables** in the lakehouse explorer pane.
+>**Note:** Make sure you create a shortcut under **Files** and not under **Tables** in the lakehouse explorer pane.
 
 ![task-wb5.png](media/labMedia/task-wb5.png)
 
@@ -111,9 +111,9 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 >**Note:** Wait for the screen to load.
 
-4. Select **Create new Connection**
+4. Select **Create new Connection** radio button.
 
-5. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut, For this, we need to get the details from the Storage Account resource.
+5. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut.
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
@@ -142,7 +142,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata** and **data**.
 
 ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -152,11 +152,11 @@ Prior to Microsoft Fabric, departments in Contoso had to move the data they need
 
 Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by creating Delta tables using Spark Notebook. By using a Spark Notebook to create Delta tables, Eva can ensure more reliable, scalable, and efficient data management, which is essential for handling big data workflows.
 
-1. Click on **Workspace** 
+1. Click on Workspace **<inject key= "WorkspaceName" enableCopy="false"/>** and select **New item**.
 
 ![task-wb8S.png](media/labMedia/64.2.png)
 
-2. Click on **New Item** and then select **Notebook**
+2. In the **New Item** tab, scroll down and click on **Notebook**
 
 ![task-wb8S.png](media/labMedia/64.3.png)
 
