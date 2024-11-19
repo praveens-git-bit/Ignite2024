@@ -1,30 +1,26 @@
 
 ### Exercise 6:  Mirroring Azure SQL DB Experience (Optional)
 
-### Task 6.1: Create Azure SQL DB Mirroring in Fabric 
+### Task 6.1: Create Mirrored Azure SQL DB in Fabric
 
 Mirroring in Fabric provides an easy experience to avoid complex ETL (Extract Transform Load) and integrate your existing Azure SQL Database estate with the rest of your data in Microsoft Fabric.
 
 Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used Database Mirroring to help further reduce their data movement and dependency on different systems. 
 
-1. Navigate to the Microsoft Fabric tab on your browser 
 
-```
-https://app.powerbi.com
-```
-2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **New item** from menu bar.
+1. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **New item** from menu bar.
 
 ![Task-6.1_1.png](media/labMedia/Task-6.1_1.png)
 
-3. In the **New item** window, search for **SQL** in the saecrh bar then select **Mirrored Azure SQL Database...**.
+2. In the **New item** window, search for **SQL** in the saecrh bar then select **Mirrored Azure SQL Database...**.
 
 ![Task-6.1_2.png](media/labMedia/Task-6.1_2.png)
 
-4. When prompted to **Choose a database connection to get started**, look for **New sources** and select **Azure SQL database**.
+3. When prompted to **Choose a database connection to get started**, look for **New sources** and select **Azure SQL database**.
 
 ![Task-6.1_3.png](media/labMedia/Task-6.1_3.png)
 
-5. In the **Server** field, paste <inject key="mssqlServer" enableCopy="false"/> , In **Database** field paste **SalesDb**.
+4. In the **Server** field copy-paste <inject key="mssqlServer" enableCopy="false"/> , In **Database** field enter **SalesDb**.
 
 |                                                     |
  -----------------------------------------------------
@@ -33,7 +29,7 @@ https://app.powerbi.com
 
 ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
-6.  Scroll down and select **Basic** for Authentication kind, enter "labsqladmin" as the Username, "Smoothie@2024" as the Password and click on the **Connect** button.
+5.  Scroll down and click on **Authentication kind** dropdown, select **Basic**. In the **Username** field enter **labsqladmin**, and in the **Password** field enter **Smoothie@2024** and then click on the **Connect** button.
 
 ```
 labsqladmin
@@ -46,11 +42,11 @@ Smoothie@2024
 
 >**Note:** Close any pop-up that you see throughout the lab.
 
-7. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
+6. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
 
 ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-8. In the name field, enter **Mirrored_SalesDb1** and click on **Create mirrored database** button.
+7. In the name field, enter **Mirrored_SalesDb1** and click on **Create mirrored database** button.
 
 ```
 Mirrored_SalesDb1
@@ -58,17 +54,17 @@ Mirrored_SalesDb1
 
 ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
-9. Click on **Monitor replication** button to track the replication status.
+8. Click on **Monitor replication** button to track the replication status.
 
 ![Task-6.1_10.png](media/labMedia/Task-6.1_10.png)
 
-10. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
+9. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
 ![Task-6.1_11.png](media/labMedia/Task-6.1_11-Copy.png)
 
 >**Note:** It might take approximately 3-5 minutes for the Rows replicated column to get populated. Try clicking on the Refresh icon again.
 
-11. Close the **Monitor replication** window.
+10. Close the **Monitor replication** window.
 
 ---
 
@@ -82,7 +78,7 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. Expand the **Schemas** and lick on **DimProduct** table to see data preview. and then click on **New SQL query** button from the menu bar.
+2. Expand the **Schemas** and click on **DimProduct** table to see data preview. and then click on **New SQL query** button from the menu bar.
 
 ![Task-6.2_2.png](media/labMedia/Task-6.2_2.png)
 
