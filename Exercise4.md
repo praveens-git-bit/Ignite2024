@@ -19,7 +19,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
 ![eventhouse1.png](media/labMedia/eventhouse1.png)
 
-3. Enter the name **Contoso-Eventhouse**.
+3. In the **Eventhouse name** field enter **Contoso-Eventhouse**.
 
 ```
 Contoso-Eventhouse
@@ -41,9 +41,7 @@ Contoso-Eventhouse
 
 ![eventhouse4.png](media/labMedia/eventhouse4.png)
 
-7. Enter the name as **RealtimeDataTo-KQL-DB** and tick a checkbox **Enhanced Capabilities(preview)** then click on **Create** button.
-
->**Note:** If the Enhanced Capabilities (Preview) checkbox does not appear, enter the name and click on **Create**.
+7. Enter the name as **RealtimeDataTo-KQL-DB** and click on **Create** button.
 
 ```
 RealtimeDataTo-KQL-DB
@@ -76,11 +74,13 @@ thermostat
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for **Event Hubs Namespace** and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
-13. Scroll down in the left navigation pane and click on Event Hubs under the Entities section.
+13. Scroll down in the left navigation pane and click on **Event Hubs** under the **Entities** section.
+
+>**Note:** If the **left navigation** bar is collapsed, click on the **hamburger icon** at the top to expand it.
 
 ![eventhubnamespace](media/listeventhubs.png)
 
@@ -122,7 +122,7 @@ thermostat
 
 ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
-20. Select the **Event processing before ingestion** radio button, enter "**RealTimeData**" as the Destination name.
+20. Select the **Event processing before ingestion** radio button, in the **Destination name** field enter **RealTimeData**.
 
 ```
 RealTimeData
@@ -145,7 +145,7 @@ thermostat
 ```
 ![eventhouse6.png](media/labMedia/eventhouse6.png)
 
-26. Enter the Input data format as **Json**.
+26. In the **Input data format** dropdown select **Json** and click on the **Save** button.
 
 >**Note:** Zoom-out on your screen if the **Input data format field** is not visible.
 
