@@ -50,7 +50,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 
 ### Optional Exercises
 
-## Exercise 6: Explorer Data Science experience in Microsoft Fabric (Optional)
+## Exercise 5: Explorer Data Science experience in Microsoft Fabric (Optional)
  
 - Task 5.1: Build ML models and experiments using Copilot in Fabric
 - Task 5.2: Leverage AI skills
