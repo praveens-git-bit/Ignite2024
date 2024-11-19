@@ -43,17 +43,19 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-## Exercise 4: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB
+## Exercise 4: Real-Time Intelligence experience : Explore Streaming data using Copilot for KQL DB
  
 - Task 4.1: Ingest real-time data into Eventhouse using Eventstream
-- Task 4.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
+- Task 4.2: Analyze and discover patterns, identify anomalies and outliers using Copilot
 
-## Exercise 6: Explorer Data Science experience in Microsoft Fabric
+### Optional Exercises
+
+## Exercise 6: Explorer Data Science experience in Microsoft Fabric (Optional)
  
 - Task 5.1: Build ML models and experiments using Copilot in Fabric
 - Task 5.2: Leverage AI skills
 
-## Exercise 6: Mirroring Azure SQL DB in Fabric
+## Exercise 6: Mirroring Azure SQL DB in Fabric (Optional)
 - Task 6.1: Create Mirrored Azure SQL DB in Fabric
 - Task 6.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
