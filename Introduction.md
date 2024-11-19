@@ -43,12 +43,12 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-## Exercise 4: Real-Time Intelligence experience : Explore Streaming data using Copilot for KQL DB
+### Optional Exercises
+
+## Exercise 4: Real-Time Intelligence experience : Explore Streaming data using Copilot for KQL DB (Optional)
  
 - Task 4.1: Ingest real-time data into Eventhouse using Eventstream
 - Task 4.2: Analyze and discover patterns, identify anomalies and outliers using Copilot
-
-### Optional Exercises
 
 ## Exercise 5: Explorer Data Science experience in Microsoft Fabric (Optional)
  
