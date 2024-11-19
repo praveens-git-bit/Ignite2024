@@ -14,7 +14,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
 
-3. Click on **Filter** and under the Type, select **Lakehouse**.
+3. Click on **Filter** and under the **Type**, select **Lakehouse**.
 
 >**Note:** Please collapse **Task filter** if **Type filter** is not seen.
 
@@ -30,13 +30,13 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-6. In the Name field enter **website_bounce_rate_model**.
+6. In the **Direct Lake semantic model name** field enter **website_bounce_rate_model**.
 
 ```BASH
 website_bounce_rate_model
 ```
 
-7. Select workspace as <inject key= "WorkspaceName" enableCopy="false"/> and click on expand icon next to **dbo** checkbox.
+7. Select workspace as **<inject key= "WorkspaceName" enableCopy="false"/>** and click on expand icon next to **dbo** checkbox.
 
 ![task-new5.png](media/labMedia/task-new5.png)
 
@@ -44,7 +44,7 @@ website_bounce_rate_model
 
 ![task-new5.1.png](media/labMedia/task-new5.1.png)
 
-9. Scroll down if you see a scroll bar and select **website_bounce_rate** table and click on the **Confirm** button. 
+9. Scroll down in the **New Semantic model** pop-up and select **website_bounce_rate** table and click on the **Confirm** button. 
 
 ![task-new6.png](media/labMedia/task-new6.png)
 
@@ -64,7 +64,7 @@ website_bounce_rate_model
 
 ![task-new6.2.png](media/labMedia/task-new6.2.png)
 
-13. Scroll down to **Q&A** section, select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
+13. Scroll down to **Q&A** section and expand it, then select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
 
 ![task-new6.3.png](media/labMedia/task-new6.3.png)
 
@@ -72,7 +72,7 @@ website_bounce_rate_model
 
 ![task-new6.3.png](media/labMedia/qna1.png)
 
-15. Click on the **Copilot** icon and collapse the other panes for Filters, **Visualizations** and **Data**.
+15. Click on the **Copilot** icon and collapse the other panes named Filters, Visualizations and Data.
 
 ![task-new6.4.png](media/labMedia/task-new6.4.png)
 
@@ -80,7 +80,7 @@ website_bounce_rate_model
 
 ![coplitclose.png](media/labMedia/coplitclose.png)
 
-15. Click on **Preview** button to the right side to enable it and click on **Get started**.
+15. Click on **Preview button** to the right side to enable it and click on **Get started**.
 
 ![task-new6.5.png](media/labMedia/task-new6.5.png)
 
@@ -143,32 +143,32 @@ Based on the data in the page, what can be done to improve the bounce rate of mi
 
 ![visualizations.png](media/labMedia/visualizations.png)
 
+23. Adjust and expand the **narrative box** from the corner to get a better readable view of the result.
+
+![open-narrative.png](media/labMedia/expand-arrow.png)
+
 23. Click on **Copilot (preview)** button within the visual.
 
 ![open-narrative.png](media/labMedia/open-narrative.png)
 	
-24. Select **Give an executive summary**. 
+24. Click on **Give an executive summary**. 
 
 25. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
-> **Note:** If you see the prompt populated in the Copilot text box move to the next step otherwise, click on the Copilot narrative text box, enter the given below prompt, and then click on Update.
+> **Note:** If you see the prompt populated in the Copilot text box move to the next step otherwise, click on the **Copilot narrative** text box, enter the given below prompt, and then click on Update.
 
 ```
 Summarize the data, provide an executive summary, indicating important takeaways.
 ```
 ![task-new16.png](media/labMedia/task-new16.png)
 
-26. Expand the narrative from the corner to get a better readable view of the result.
-
-![expand-arrow.png](media/labMedia/expand-arrow.png)
-
-27. Click on the **Close** button in the pop-up window.
+26. Click on the **Close** button in the pop-up window.
 
 ![close-copilot.png](media/labMedia/close-copilot.png)
 
 See how easy it was to get an executive summary with absolutely no IT resource dependency!
 
-28. Click on **Happy** from **Customer Sentimental Distribution - pie chart visual** and observe how the Executive summary is updating.
+27. Click on **Happy** from **Customer Sentimental Distribution - pie chart visual** and observe how the Executive summary is updating.
 
 >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
 
