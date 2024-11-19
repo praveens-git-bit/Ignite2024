@@ -83,7 +83,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 18. Run the **first cell** of the notebook to install the copilot packages.
 
->**Note:** Note: This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
+>**Note:** This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
@@ -105,13 +105,15 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 22. Hover above the first cell and then click on a **+ Code** icon.
 
+>**Note:** The new cell will be created right above the existing cell.
+
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
 23. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
->**Note:** Copilot may not respond as expected, please copy and paste the following code to obtain the result:
+>**Note:** Copilot may not respond as expected, please copy and paste the following code if the code execution fails:
 
 ```
 # Load the table into a Spark DataFrame
@@ -207,6 +209,8 @@ In addition to instructions, examples serve as another effective way to guide th
 >**Note:** Make sure you have allowed copy to clipboard in the browser lock.
 
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
+
+>**Note:** Please make sure to delete the existing comment (-- Enter SQL query ) before entering the custom query.
 
 |Question| SQL query|
 |--------|----------|
