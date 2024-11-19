@@ -8,9 +8,10 @@
 
 Open the new tab in the browser and copy paste the below URL to verify app service streaming data.
 
-```BASH
-<inject key= "WebAppBrowse" enableCopy="true"/>
-```
+|                                               |
+ ------------------------------------------------
+|<inject key= "WebAppBrowse" enableCopy="true"/> |
+ ------------------------------------------------
 
 **Wait** for the page to load. You will see a page like the one shown below.
 
@@ -20,7 +21,7 @@ Open the new tab in the browser and copy paste the below URL to verify app servi
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
-In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's data from ADLS Gen2 into the Lakehouse and initiate data preparation for the upcoming merger between Contoso and Litware Inc.
+In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's data from Azure SQL Database into the Lakehouse and initiate data preparation for the upcoming merger between Contoso and Litware Inc.
 
 1. Open **Microsoft Fabric** in a new tab by copy pasting the below link.
 
@@ -44,9 +45,11 @@ https://app.fabric.microsoft.com/home
 
 4. Copy paste the Worksapce name **<inject key= "WorkspaceName" enableCopy="false"/>** in the **Name** field and click on **Apply** to create the workspace.
 
-```BASH
- <inject key= "WorkspaceName" enableCopy="true"/>
-```
+
+|                                               |
+ -------------------------------------------------
+|<inject key= "WorkspaceName" enableCopy="true"/> |
+ -------------------------------------------------
 
 >**Note:** Only use the workspace name provided above.
 
@@ -116,9 +119,10 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 6.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
 
-```BASH
-<inject key= "storageEndpoint" enableCopy="true"/>
-```
+|                                                    |
+-----------------------------------------------------
+| <inject key= "storageEndpoint" enableCopy="true"/> |
+-----------------------------------------------------
 
 ![task-1.3-ext-shortcut-11.png](media/labMedia/task-1.3-ext-shortcut-11.png)
 
@@ -138,7 +142,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-11. And there you go! Your shortcut is now ready! Simply click (do not expand) on the newly created shortcut named **litwaredata**.
+11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
 ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -191,8 +195,8 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once a **Green tick** appears in the cell below, **execution is successful**.
-8. **Stop the Spark session** from the above.
+7. Once the **execution is successful** you'll see a **Green tick** appears at the bottom of cell.
+8. Click on the Stop icon in the ribbon at the top to **Stop the Spark session**.
 9. Click on **Lakehouse** in the left navigation bar.
 
 ![task-wb8S.png](media/64.9.png)
@@ -227,11 +231,13 @@ You will experience how easy it is to use Fast Copy to transform Litware's sales
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
-3. Click on the drop down of the **New Query** icon and click on the **Get data**.
+3. Click on the **New Query** drop down and click on the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
 
->**Note:** If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
+>**Note:**  If the **New query** dropdown is not visible click on **Get data** icon available at the same place.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
+
+There are 150+ source connections available to in Dataflow Gen2.
 
 4. In the pop-up window, scroll down to **OneLake data hub** and click on **lakehouse**.
 
@@ -245,7 +251,7 @@ You will experience how easy it is to use Fast Copy to transform Litware's sales
 
 ![task-wb9.S.png](media/chosedata001.png)
 
-7. Select the **sales_data.csv** checkbox, then **click** on the **Create** button.
+7. Scroll down and select the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
 ![task-wb9.S.png](media/labMedia/chosesalesdata.png)
 
@@ -295,16 +301,17 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
 
-
 <img src="media/56.png" width="800"/> 
 
-
 14. Click on the **close** icon at top right of the **Dataflow** window.
+
+>**Note:** If necessary, scroll up to show the close icon.
 
 <img src="media/dataflowclose.png" width="800"/> 
 
 15. Click on **Yes.**
 
 ![dataflowclose.png](media/closeyes.png)
+
 
 Congrats on completing this data transformation exercise!
