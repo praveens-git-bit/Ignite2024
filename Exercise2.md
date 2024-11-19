@@ -2,11 +2,11 @@
 
 This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solve their integration challenges. The acquired company, Litware Inc., was already using Databricks heavily and they stored their churn and sales data in ADLS Gen2. We’ll see how Unity Catalog benefited Contoso’s data architects so they could quickly get up to speed on all Litware Inc.’s data.
 
-### Task 2.1: Explore Delta Live Table pipeline (Data Transformation)
+### Task 2.1: Create Delta Live Table pipeline for Data Transformation
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Go back to the browser tab where you have the Resource Group **rg-ignite24** open.
+1. Go back to the browser tab of Resource Group **<inject key= "resourcegroup" enableCopy="false"/>**.
 
 2. Search for the Azure Databricks in the Resource group search field and click on **adb-ignite...**.
 
@@ -51,17 +51,19 @@ DLT_Pipeline
     
 >**Note:** The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
 
-11. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
+11. Once the **execution is completed**, we will see a result similar to the one in the following screenshot.
+
 
  <img src="media/labMedia/task-2.2.7.png" width="800"/> 
 
+This beautiful lineage view showing the Medallion Architecture is a data design pattern commonly used in Databricks to organize and optimize data processing workflows in a lakehouse architecture. It structures data into three logical layers—Bronze, Silver, and Gold—ensuring data quality, accessibility, and scalability for analytics and machine learning.
 
 ---
 
 ### Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI).
 
 We saw how Contoso utilized DLT pipelines to create a Medallion architecture on their data. Now let’s look at how data governance was managed on this curated data across the organization and made easy with Unity Catalog.
- 
+
 With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. They wanted to make sure that the transition was smooth, and their data engineers and data scientists could easily assimilate the data processed by Databricks. Thankfully, they were able to leverage Gen AI features right within Azure Databricks to understand and derive insights from this data.
 
 >**Note**: Due to time constraints, the following steps will be completed via an online Click-by-Click exercise.
@@ -74,6 +76,7 @@ With the acquisition of Litware Inc., Contoso had a lot of data integration and 
 1. Click on the [**hyperlink**](https://regale.cloud/Microsoft/viewer/3066/task-22-explore-the-data-in-azure-databricks-environment-with-unity-catalog/index.html#/0/1)
 
 2. Continue with next excercise.
+
 
 ### Task 2.3: Create mirrored Azure Databricks catalog in Fabric and analyze data using T-SQL
 
