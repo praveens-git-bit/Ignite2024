@@ -2,6 +2,7 @@
  
 Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
+
 ### Task 5.1: Build ML models and experiments using Copilot in Fabric
 
 ![task-3.1.1.png](media/labMedia/exercise5_1.1.png)
@@ -10,7 +11,7 @@ To understand the cause behind Contoso’s declining revenue, the team needed to
 
 Copilot responds to queries in natural language or generates customized code snippets for tasks like creating charts, filtering data, applying transformations, and building machine learning models.
 
-Let’s see how Copilot for Notebook helps you, as a Data Scientist, quickly create Data Science Notebooks.
+Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly create Data Science Notebooks.
 
 1. Switch to the **Data Science** experience using the experience switcher icon in the left corner.
 
@@ -24,96 +25,93 @@ Let’s see how Copilot for Notebook helps you, as a Data Scientist, quickly cre
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Copy paste the following path **"C:\LabFiles\02_lab\artifacts\fabricnotebooks"** in the path field and hit **Enter** in the Keyboard.
-5. Select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
-6. Click on the **Open** button.
+4. Browse to the fabricnotebooks folder **"C:\LabFiles\01_Pre_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+
+5. Click on the **Open** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.2.png)
 
-7. Wait for the notebook to **upload**.
+6. Wait for the notebook to **upload**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.3.png)
 
-8. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
+7. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
-9. Click on **Filter**, expand **Type** and select **Notebook**.
+8. Click on **Filter**, expand **Type** and select **Notebook**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.5.png)
 
-10. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+9. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.6.png)
 
-11. Click on **Lakehouses** in the Explorer pane.
+10. Click on **Lakehouses** in the Explorer pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.7.png)
 
-12. Click on **Missing Lakehouses** and then click on **Remove all Lakehouse**.
+11. Click on **Missing Lakehouses** and then click on **Remove all Lakehouse**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.8.png)
 
-13. Click on the **Continue** button.
+12. Click on the **Continue** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.9.png)  
 
-14. Click on the **+ Lakehouse** button.
+13. Click on the **+ Lakehouse** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
 
-15. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
+14. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/64.6.png)
 
-16. Select the **lakehouse** checkbox.
+15. Select the **lakehouse** checkbox.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.12.png)
 
-17. Click on the **Add** button.
+16. Click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.13.png)
 
-18. Click on the **Copilot** button and then click on the **Get Started** button.
+17. Click on the **Copilot** button and then click on the **Get Started** button.
  
 >**Note:** If the Copilot is not visible please click on eclipse **":"** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
-19. Run the **first cell** of the notebook to install the copilot packages.
+18. Run the **first cell** of the notebook to install the copilot packages.
 
->**Note:** This may take a while to execute, please wait till this load completely.
+>**Note:** Note: This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
-20. Copy and paste the following **prompt** in the textbox.
+19. Copy and paste the following **prompt** in the textbox.
 
 ```
 Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df
 ```
 
-21. Click on the **send** button.
+20. Click on the **send** button.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.png)
 
-22. Click on the **Copy code** icon.
+21. Click on the **Copy code** icon.
 
 >**Note:** The new cell will be created right above the cell.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-23. Hover above the first cell and then click on the **+ Code** icon.
-
->**Note:** The new cell will be created right above the existing cell.
+22. Hover above the first cell and then click on a **+ Code** icon.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
-
-24. Paste the copied **query** and run the new **cell**.
+23. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
->**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
+>**Note:** Copilot may not respond as expected, please copy and paste the following code to obtain the result:
 
 ```
 # Load the table into a Spark DataFrame
@@ -130,7 +128,7 @@ With the data prepared with the help of Copilot, Data Scientists like you can ex
 The rest of the notebook has similar PySpark queries to explore customer churn prediction.
 
 
-### Task 5.2: Leverage AI skills for Q&A
+### Task 5.2: Leverage AI skills
 
 AI Skill, a new capability in Fabric, allows Data Analysts like Serena to create their own generative AI experiences. Serena believes that generative AI offers a transformative way to interact with data, significantly boosting data-driven decision-making in organizations worldwide. 
 
@@ -144,7 +142,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill2.png)
 
-3. Enter Name as **Contoso-Assistance** 
+3. Enter Name as **Contoso-Assistance**  as the Create AI Skill name.
 
 ![task-5.2](media/labMedia/AIskill3.png)
 
@@ -202,13 +200,13 @@ Asking the question again returns a different answer, **Mountain-200 Black, 46**
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-11. In the example SQL queries click on **edit** icon.
+10. In the example SQL queries click on **edit** icon.
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
 >**Note:** Make sure you have allowed copy to clipboard in the browser lock.
 
-12. Click on **+ Add example** and enter the following question and their respective SQL queries.
+11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
 |--------|----------|
@@ -219,11 +217,11 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill10.png)
 
-13. Click on **close(X)** button.
+12. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-14. Type  the following **prompt** in the chatbox and click on **Send** button.
+13. Type  the following **prompt** in the chatbox and click on **Send** button.
 
 ```
 who are the top 5 customers by total sales amount?
@@ -231,14 +229,14 @@ who are the top 5 customers by total sales amount?
 
 ![task-5.2](media/labMedia/AIskill12.png)
 
-15. Click on **Publish** button.
+14. Click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill13.png)
 
-16. In the pop-up screen click on **Publish** button.
+15. In the pop-up screen click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
-17. Notice that AI skill is published successfully.
+16. Notice that AI skill is **published successfully**.
 
 ![task-5.2](media/labMedia/AIskill15.png)
