@@ -168,11 +168,11 @@ Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by 
 
 ![task-wb8S.png](media/labMedia/64.5.png)
 
-4. Select **Existing Lakehouse with Schema** and then click on ***Add***.
+4. Select **Existing Lakehouse with Schema** and then click on **Add** button.
 
 ![task-wb8S.png](media/labMedia/64.6.png)
 
-5. Select the **lakehouse** and then click on **Add**
+5. Select the **lakehouse** and then click on **Add** button.
 
 ![task-wb8S.png](media/labMedia/64.7.png)
 
@@ -194,6 +194,8 @@ for file in csv_files:
 ```
 
 ![task-wb8S.png](media/labMedia/64.8.png)
+
+>**Note:** Please wait for the session to start and execute the cell.
 
 7. Once the **execution is successful** you'll see a **Green tick** appears at the bottom of cell.
 8. Click on the Stop icon in the ribbon at the top to **Stop the Spark session**.
@@ -227,7 +229,7 @@ You will experience how easy it is to use Fast Copy to transform Litware's sales
 
 ![task-1.3.1.png](media/labMedia/task-1.3.1.png)
 
-2. Click on **Dataflow Gen2**.
+2. Click on **Dataflow Gen2** under the **Recommended items to create**.
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
@@ -255,7 +257,7 @@ There are 150+ source connections available to in Dataflow Gen2.
 
 ![task-wb9.S.png](media/labMedia/chosesalesdata.png)
 
-8. Collapse the **Queries** pane and take a look at the sales dataset (**note that the first row of this dataset is not a header**).
+8. Collapse the **Queries** pane and take a look at the sales dataset, the first row needs to be identified as a header (**note that the first row of this dataset is not a header**).
 
 ![DFData.png](media/labMedia/DFData.png)
 
@@ -272,7 +274,7 @@ There are 150+ source connections available to in Dataflow Gen2.
 
 >**Note:** If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
 
-10. Scroll to the right-hand side and observe the **GrossRevenue** and **NetRevenue** columns. You notice that some rows contain empty or null values.
+10. Scroll to the right-hand side and observe the **GrossRevenue** and **NetRevenue** columns. You'll notice the there are some empty rows with null values.
 
 ![DFData12.png](media/labMedia/DFData12.png)
 
@@ -295,7 +297,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 <img src="media/55.png" width="800"/>  
 
->**Note:** **Fast copy** enhances the data handling capabilities within Fabric, making **data transfers** faster and more seamless across the platform.
+**Fast copy** enhances the data handling capabilities within Fabric, making **data transfers** faster and more seamless across the platform.
 
 >**Note:** Due to time constraints, we will not publish and run the Dataflow from the Pipeline.
 
