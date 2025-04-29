@@ -2,7 +2,7 @@
 # Microsoft Fabric, Azure OpenAI and Azure Databricks DREAM Workshop
 
 
-**The estimated time to complete this lab is 50 - 60 Minutes.**
+**The estimated time to complete this lab is 120 Minutes.**
 
 **DISCLAIMER**
 
