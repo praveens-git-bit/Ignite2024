@@ -1,5 +1,7 @@
 
-# Lab423: Elevate your data workflow with Microsoft Fabric, Copilot and Azure Databricks DREAM Lab
+# Microsoft Fabric, Azure OpenAI and Azure Databricks DREAM Workshop
+
+
 **The estimated time to complete this lab is 50 - 60 Minutes.**
 
 **DISCLAIMER**
@@ -32,6 +34,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 1.2: Use the New Shortcut option from external data sources
  - Task 1.3: Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
+ - Task 1.5: Explore Task Flows in Microsoft Fabric
 
 ## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), Mirrored Azure Databricks Catalog
 
@@ -43,9 +46,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-### Optional Exercises
-
-## Exercise 4: Real-Time Intelligence experience : Explore Streaming data using Copilot for KQL DB (Optional)
+## Exercise 4: Real-Time Intelligence experience : Explore Streaming data using Copilot for KQL DB
  
 - Task 4.1: Ingest real-time data into Eventhouse using Eventstream
 - Task 4.2: Analyze and discover patterns, identify anomalies and outliers using Copilot
